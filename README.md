@@ -46,8 +46,8 @@ python app.py run starlink-lite --des --des-flows 3 --des-tasks 200 --des-algo b
 打开 GUI 后默认载入 `starlink-lite`（16 面 × 18 星 = 288 颗，550 km / 53°），点击
 **▶ 开始仿真**，得到 11 个页面的结果：结果概览、三维星座、卫星轨迹、路由分析、
 传输分析、星载计算、**仿真展示**、**传输任务**、**计算任务**、运行日志、
-**事件内核**。2026 版界面采用**浅色侧边导航**
-（logo 品牌区 + 分组小标题「仿真分析 / 真实任务 / 实时动态」+ emoji 条目 +
+**事件内核**。
+2026 版界面采用**浅色侧边导航**（logo 品牌区 + 分组小标题「仿真分析 / 真实任务 / 实时动态」+ emoji 条目 +
 薄荷绿选中胶囊）替代传统顶部页签，右侧结果区随导航切换，参数面板卡片化，
 窗口与任务栏图标为内置 SVG logo（`satnetsim/resources/logo.svg`：轨道弧 +
 星座节点 + 星间链路）。仿真展示页是实时回放——把真实载荷的每一跳画成"光点沿星座飞行"
@@ -447,5 +447,3 @@ Reno/CUBIC 这一排序在真实侧与解析侧**一致**——解析模型的�
 - Denby et al. *Kodan: Addressing the Computational Bottleneck in Space.*
   ASPLOS 2023.
 - Won et al. *ASTRA-sim 2.0.* ISPASS 2023 (arXiv:2303.14006).
-
-完整文献与设计依据见 `docs/SatNetSim_设计与调研报告.docx`。
